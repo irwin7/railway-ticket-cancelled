@@ -1,0 +1,107 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 12px;
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+
+  html,
+  body {
+    width: 210mm;
+    height: 297mm;
+  }
+
+  /* ... the rest of the rules ... */
+}
+
+.clear-fix:before,
+.clear-fix:after {
+  content: "";
+  display: table;
+}
+
+.clear-fix:after {
+  clear: both;
+}
+
+.clear-box {
+  display: block;
+  clear: both;
+}
+
+ul {
+  list-style: none;
+}
+
+.printing-box {
+  width: 210mm;
+  height: 297mm;
+  display: table;
+  margin: 0 auto;
+  padding: 30px;
+  /* background: #cececc; */
+  outline: solid 1px #ff0000;
+}
+
+.header {
+
+  width: 100%;
+}
+
+.header__row {}
+
+.header__col {
+  width: 50%;
+}
+
+.header__logo {
+  display: inline-block;
+  width: 260px;
+  height: 50px;
+}
+
+.header__inner-row {
+  width: 100%;
+}
+.header__txts-h{
+  width: 100%;
+  padding-right: 10px;
+}
+
+.header__inner-col {}
+
+.header__txts {}
+
+.header__title {
+  display: block;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.header__txt {}
+
+.header__id {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000;
+  text-align: right;
+}
