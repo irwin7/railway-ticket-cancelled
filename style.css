@@ -265,7 +265,7 @@ table {
   width: 25px;
   height: 15px;
   margin: 5px 10px;
-  margin-right: 13px;
+  margin-right: 15px;
 }
 
 .departure__inner-col .route__txt {
@@ -296,9 +296,6 @@ table {
 .qr__img {
   width: 100px;
   height: 100px;
-}
-
-.qr__inner-row:first-child .qr__inner-tab {
 }
 
 .return table {
@@ -348,4 +345,46 @@ table {
 
 .warning__row:not(:last-child) .warning__txt {
   padding-bottom: 10px;
+}
+
+.status {}
+
+.status__row {}
+
+.status__col {
+  width: 50%;
+}
+
+.status__col:first-child{
+  padding-right: 10px;
+}
+
+.status__col:last-child{
+  padding-left: 10px;
+}
+
+.status__tab {}
+
+.status__inner-row {}
+
+.status__texts {}
+
+.status__titles {}
+
+.status__title {
+  text-align: left;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000;  
+}
+
+.status__txts {}
+
+.status__txt {
+  text-align: right;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000; 
 }
