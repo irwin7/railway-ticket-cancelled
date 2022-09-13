@@ -163,6 +163,10 @@ table {
   color: #000;
 }
 
+.passeger__col{
+  line-height: 10px;
+}
+
 .amount {
   border-left: none;
 }
