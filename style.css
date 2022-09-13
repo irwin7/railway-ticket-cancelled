@@ -115,7 +115,7 @@ table {
 .coupon__col {
   width: 50%;
   border: 1px solid #000;
-  padding: 13px;
+  padding: 10px;
   vertical-align: top;
 }
 
@@ -176,7 +176,7 @@ table {
 }
 
 .amount__row:first-child .amount__col {
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 .amount__col {
@@ -352,11 +352,11 @@ table {
   width: 50%;
 }
 
-.status__col:first-child{
+.status__col:first-child {
   padding-right: 10px;
 }
 
-.status__col:last-child{
+.status__col:last-child {
   padding-left: 10px;
 }
 
@@ -365,7 +365,7 @@ table {
   font-weight: 600;
   font-size: 14px;
   line-height: 17px;
-  color: #000;  
+  color: #000;
 }
 
 .status__txt {
@@ -373,7 +373,7 @@ table {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #000; 
+  color: #000;
 }
 
 /* Start of hero */
@@ -382,20 +382,24 @@ table {
   width: 42.5%;
   border: 1px solid black;
 }
+
 .hero .second {
   width: 67.5%;
   border: 1px solid black;
 }
+
 /* End of hero */
 .hero .first,
 .hero .second {
   padding: 10px;
 }
+
 .hero .first .chipta {
   font-size: 1.3em;
   font-weight: 600;
   text-align: center;
 }
+
 .hero .first .date {
   font-weight: 400;
   font-size: 0.95em;
@@ -431,13 +435,6 @@ table {
   font-size: 11px;
   line-height: 13px;
 }
-.passeger__row:not(:last-child) .passeger__id {
-  margin-bottom: 5px;
-}
-
-.passeger__row:nth-child(2) .passeger__id {
-  margin-bottom: 5px;
-}
 
 /* ============================ */
 /* second */
@@ -451,24 +448,30 @@ table {
   border: 1px solid #000;
   border-top: none;
 }
+
 .second-row .second {
   width: 70%;
   border: 1px solid yellow;
   padding: 20px;
 }
+
 .vagon,
 .seat {
   padding-top: 7px;
 }
+
 .number {
   text-align: center;
 }
+
 .second-hero .first {
   padding: 10px;
 }
+
 .second-heo .second {
   padding: 70px;
 }
+
 /* .second-hero .second tr {
   margin: 0 auto;
 } */
@@ -491,36 +494,43 @@ table {
   font-weight: 400;
   text-align: center;
 }
+
 .place {
   font-weight: 700;
   font-size: 1.2em;
   text-align: center;
 }
+
 .departure,
 .arrival {
   text-align: center;
   text-transform: uppercase;
 }
+
 .arrow {
   width: 100%;
   text-align: center;
 }
+
 .arrow div {
   width: 70%;
 }
-.arrow div img{
+
+.arrow div img {
   width: 100%;
 }
+
 .space-top {
   padding-top: 7px;
 }
-.period{
+
+.period {
   border: 1px solid #000;
   border-top: none;
   border-left: none;
 }
 
-.period__static-title{
+.period__static-title {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
@@ -528,28 +538,32 @@ table {
   text-transform: uppercase;
   color: #000;
 }
-.period__start-time{
+
+.period__start-time {
   font-weight: 700;
   font-size: 21px;
   line-height: 24px;
   text-align: center;
   color: #000;
 }
-.period__start-place{
+
+.period__start-place {
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   color: #000;
 }
-.period__time{
+
+.period__time {
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   color: #000;
 }
-.period__mid-txt{
+
+.period__mid-txt {
   font-weight: 400;
   font-size: 8px;
   line-height: 9px;
@@ -557,16 +571,20 @@ table {
   text-transform: uppercase;
   color: #000;
 }
-.period__arrow{
+
+.period__arrow {
   width: 100%;
   height: 20px;
 }
-.period__txts:first-child .period__static-titles{
+
+.period__txts:first-child .period__static-titles {
   padding-bottom: 5px;
 }
-.period__txts:nth-child(2) .period__static-titles{
+
+.period__txts:nth-child(2) .period__static-titles {
   padding-bottom: 10px;
 }
+
 .period__col:nth-child(2) {
   vertical-align: bottom;
 }
@@ -574,18 +592,22 @@ table {
 .space {
   padding-left: 15px;
 }
+
 .normal-text {
   font-size: 0.95em;
   font-weight: bold;
 }
+
 .slite-normal {
   font-size: 0.9em;
   font-weight: bold;
 }
+
 .small-text {
   font-size: 0.8em;
   font-weight: 400;
 }
+
 .slite-bold {
   font-weight: 600;
   font-size: 1.3em;
@@ -595,6 +617,7 @@ table {
   font-size: 1.3em;
   font-weight: bold;
 }
+
 /* End of main */
 table {
   width: 100%;
@@ -609,10 +632,16 @@ table {
 .header {
   width: 100%;
 }
+
 .navbar {
   width: 64%;
 }
-.header-logo{
+
+.header-table {
+  margin-bottom: 10px;
+}
+
+.header-logo {
   width: 260px;
   height: 50px;
 }
@@ -621,9 +650,50 @@ table {
   width: 32%;
 }
 
-.header .logo-box img {
-}
+.header .logo-box img {}
 
 .space {
   padding-left: 10px;
+}
+
+.type{
+  margin-bottom: 10px;
+}
+
+.type__column {
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.type__column:first-child {
+  width: 42.5%;
+}
+
+.type__column:last-child {
+  width: 67.5%;
+}
+.type__title{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000;
+}
+.type__txt{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000;
+}
+.type__box:last-child .type__txt{
+  text-align: right;
+}
+
+.alert__txt {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FF0000;
 }
