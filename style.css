@@ -128,11 +128,11 @@ table {
   color: #000;
 }
 
-.passeger__row:not(:last-child) .passeger__id {
+.passeger__row:not(:last-child) .passeger__col {
   padding-bottom: 10px;
 }
 
-.passeger__row:nth-child(2) .passeger__id {
+.passeger__row:nth-child(2) .passeger__col {
   padding-bottom: 15px;
 }
 
@@ -330,7 +330,7 @@ table {
 }
 
 .warning {
-  background: #0000001a;
+  background: #E5E5E5;
   border: 3px solid #000;
   margin-bottom: 16px;
   padding: 10px;
@@ -344,8 +344,8 @@ table {
   text-align: justify;
 }
 
-.warning__row:not(:last-child) .warning__txt {
-  margin-bottom: 10px;
+.warning__row:not(:last-child) .warning__col {
+  padding-bottom: 10px;
 }
 
 .status {}
