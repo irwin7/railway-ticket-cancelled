@@ -3,7 +3,6 @@
 *:before {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -48,7 +47,7 @@ ul {
 
 table {
   width: 100%;
-  border-spacing:0;
+  border-spacing: 0;
   border-collapse: collapse;
 }
 
@@ -63,9 +62,6 @@ table {
 
 .header {
   width: 100%;
-}
-
-.header__row{
 }
 
 .header__col {
@@ -104,13 +100,15 @@ table {
   color: #000;
   text-align: right;
   padding-left: 10px;
+  padding-bottom: 10px;
 }
 
-.coupon {}
+.coupon__body .coupon__col {
+  border-top: none;
+  border-bottom: none;
+}
 
-.coupon__row {}
-
-.coupon__header .coupon__col{
+.coupon__header .coupon__col {
   padding: 5px 0;
 }
 
@@ -130,24 +128,20 @@ table {
   color: #000;
 }
 
-.coupon__body {}
-
-.passeger {}
-
-.passeger__tab {}
-
-.passeger__row:not(:last-child) .passeger__col {
-  padding-bottom: 6px;
+.passeger__row:not(:last-child) .passeger__id {
+  margin-bottom: 10px;
 }
 
-.passeger__col {}
+.passeger__row:nth-child(2) .passeger__id {
+  margin-bottom: 15px;
+}
 
 .passeger__name {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   color: #000;
-  margin-bottom: 1px;
+  margin-bottom: 2px;
 }
 
 .passeger__id {
@@ -173,14 +167,15 @@ table {
   color: #000;
 }
 
-.amount {}
+.amount {
+  border-left: none;
+}
 
-.amount__tab {}
-
-.amount__row .amount__col:first-child{
+.amount__row .amount__col:first-child {
   width: 55%;
 }
-.amount__row:first-child .amount__col{
+
+.amount__row:first-child .amount__col {
   padding-bottom: 15px;
 }
 
@@ -221,16 +216,30 @@ table {
   color: #000;
   text-transform: uppercase;
 }
-.coupon__col.route{
+
+.route {
+  border-right: none;
+}
+
+.departure {
+  border-left: none;
+  border-right: 1px solid #000;
+  ;
+}
+
+.coupon__col.route {
   padding: 6px 10px;
 }
-.route__col{
+
+.route__col {
   width: 55%;
 }
-.route__col:first-child{
+
+.route__col:first-child {
   width: 45%;
 }
-.route__txt{
+
+.route__txt {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
@@ -238,11 +247,11 @@ table {
   color: #000;
 }
 
-.line__col:not(:nth-child(2)){
+.line__col:not(:nth-child(2)) {
   width: 80px;
 }
 
-.line__txt{
+.line__txt {
   display: inline-block;
   font-weight: 700;
   font-size: 14px;
@@ -252,21 +261,69 @@ table {
   color: #000;
 }
 
-.line__arrow{
+.line__arrow {
   width: 25px;
   height: 15px;
   margin: 5px 10px;
   margin-right: 13px;
 }
 
-.departure__inner-col .route__txt{
+.departure__inner-col .route__txt {
   text-align: right;
 }
 
-.departure__date{
+.departure__date {
   font-weight: 700;
   font-size: 13px;
   line-height: 16px;
   text-align: center;
+  color: #000;
+}
+
+.qr__col {
+  width: 50%;
+  padding: 20px 0;
+}
+
+.qr__col:first-child {
+  padding-right: 5px;
+}
+
+.qr__col:last-child {
+  padding-left: 5px;
+}
+
+.qr__img {
+  width: 100px;
+  height: 100px;
+}
+
+.qr__inner-row:first-child .qr__inner-tab{
+  margin-bottom: 18px;
+}
+
+
+.return table{
+  width: 320px;
+}
+.qr__inner-row:last-child .qr__inner-col:first-child{
+  width: 70%;
+}
+
+
+.qr__title {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000;
+}
+.qr__inner-col{
+  vertical-align: top;
+}
+.qr__txt{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: right;
   color: #000;
 }
