@@ -121,8 +121,8 @@ table {
 
 .coupon__title {
   font-weight: 600;
-  font-size: 17px;
-  line-height: 22px;
+  font-size: 15px;
+  line-height: 17px;
   text-align: center;
   text-transform: uppercase;
   color: #000;
@@ -395,7 +395,8 @@ table {
 }
 
 .hero .first .chipta {
-  font-size: 1.3em;
+  font-size: 15px;
+  line-height: 17px;
   font-weight: 600;
   text-align: center;
 }
@@ -541,16 +542,16 @@ table {
 
 .period__start-time {
   font-weight: 700;
-  font-size: 21px;
-  line-height: 24px;
+  font-size: 19px;
+  line-height: 22px;
   text-align: center;
   color: #000;
 }
 
 .period__start-place {
   font-weight: 700;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 15px;
+  line-height: 17px;
   text-align: center;
   color: #000;
 }
@@ -570,6 +571,10 @@ table {
   text-align: center;
   text-transform: uppercase;
   color: #000;
+}
+
+.arrows{
+  width: 100%;
 }
 
 .period__arrow {
@@ -614,7 +619,8 @@ table {
 }
 
 .bold-text {
-  font-size: 1.3em;
+  font-size: 15px;
+  font-weight: 17px;
   font-weight: bold;
 }
 
