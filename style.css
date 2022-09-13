@@ -344,7 +344,7 @@ table {
 }
 
 .warning__row:not(:last-child) .warning__txt {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .status {}
@@ -374,7 +374,7 @@ table {
 .status__title {
   text-align: left;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 19px;
   color: #000;  
 }
@@ -384,7 +384,7 @@ table {
 .status__txt {
   text-align: right;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 19px;
   color: #000; 
 }
