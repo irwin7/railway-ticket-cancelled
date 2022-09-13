@@ -348,10 +348,6 @@ table {
   padding-bottom: 10px;
 }
 
-.status {}
-
-.status__row {}
-
 .status__col {
   width: 50%;
 }
@@ -364,14 +360,6 @@ table {
   padding-left: 10px;
 }
 
-.status__tab {}
-
-.status__inner-row {}
-
-.status__texts {}
-
-.status__titles {}
-
 .status__title {
   text-align: left;
   font-weight: 600;
@@ -380,12 +368,262 @@ table {
   color: #000;  
 }
 
-.status__txts {}
-
 .status__txt {
   text-align: right;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #000; 
+}
+
+/* Start of hero */
+
+.hero .first {
+  width: 42.5%;
+  border: 1px solid black;
+}
+.hero .second {
+  width: 67.5%;
+  border: 1px solid black;
+}
+/* End of hero */
+.hero .first,
+.hero .second {
+  padding: 10px;
+}
+.hero .first .chipta {
+  font-size: 1.3em;
+  font-weight: 600;
+  text-align: center;
+}
+.hero .first .date {
+  font-weight: 400;
+  font-size: 0.95em;
+  padding-top: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+  text-align: center;
+  line-height: 15px;
+}
+
+.passeger__name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 2px;
+}
+
+.passeger__id {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.passeger__count-txt {
+  display: inline;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 14px;
+}
+
+.passeger__count {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+}
+.passeger__row:not(:last-child) .passeger__id {
+  margin-bottom: 5px;
+}
+
+.passeger__row:nth-child(2) .passeger__id {
+  margin-bottom: 5px;
+}
+
+/* ============================ */
+/* second */
+
+.second-row {
+  width: 100%;
+}
+
+.second-row .first {
+  width: 30%;
+  border: 1px solid #000;
+  border-top: none;
+}
+.second-row .second {
+  width: 70%;
+  border: 1px solid yellow;
+  padding: 20px;
+}
+.vagon,
+.seat {
+  padding-top: 7px;
+}
+.number {
+  text-align: center;
+}
+.second-hero .first {
+  padding: 10px;
+}
+.second-heo .second {
+  padding: 70px;
+}
+/* .second-hero .second tr {
+  margin: 0 auto;
+} */
+
+.time {
+  text-align: center;
+  font-size: 1.7em;
+  font-weight: 700;
+}
+
+.time-13 {
+  font-weight: 700;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.text-road {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+}
+.place {
+  font-weight: 700;
+  font-size: 1.2em;
+  text-align: center;
+}
+.departure,
+.arrival {
+  text-align: center;
+  text-transform: uppercase;
+}
+.arrow {
+  width: 100%;
+  text-align: center;
+}
+.arrow div {
+  width: 70%;
+}
+.arrow div img{
+  width: 100%;
+}
+.space-top {
+  padding-top: 7px;
+}
+.period{
+  border: 1px solid #000;
+  border-top: none;
+  border-left: none;
+}
+
+.period__static-title{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+}
+.period__start-time{
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 24px;
+  text-align: center;
+  color: #000;
+}
+.period__start-place{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000;
+}
+.period__time{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000;
+}
+.period__mid-txt{
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 9px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+}
+.period__arrow{
+  width: 100%;
+  height: 20px;
+}
+.period__txts:first-child .period__static-titles{
+  padding-bottom: 5px;
+}
+.period__txts:nth-child(2) .period__static-titles{
+  padding-bottom: 10px;
+}
+.period__col:nth-child(2) {
+  vertical-align: bottom;
+}
+
+.space {
+  padding-left: 15px;
+}
+.normal-text {
+  font-size: 0.95em;
+  font-weight: bold;
+}
+.slite-normal {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.small-text {
+  font-size: 0.8em;
+  font-weight: 400;
+}
+.slite-bold {
+  font-weight: 600;
+  font-size: 1.3em;
+}
+
+.bold-text {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+/* End of main */
+table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.table-item {
+  text-align: right;
+}
+
+.header {
+  width: 100%;
+}
+.navbar {
+  width: 64%;
+}
+.header-logo{
+  width: 260px;
+  height: 50px;
+}
+
+.header .logo-box {
+  width: 32%;
+}
+
+.header .logo-box img {
+}
+
+.space {
+  padding-left: 10px;
 }
