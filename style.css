@@ -25,7 +25,6 @@ body {
     height: 297mm;
   }
 
-  /* ... the rest of the rules ... */
 }
 
 .clear-fix:before,
@@ -47,22 +46,24 @@ ul {
   list-style: none;
 }
 
+table {
+  width: 100%;
+  border-spacing:0;
+  border-collapse: collapse;
+}
+
 .printing-box {
   width: 210mm;
   height: 297mm;
   display: table;
   margin: 0 auto;
   padding: 30px;
-  /* background: #cececc; */
   outline: solid 1px #ff0000;
 }
 
 .header {
-
   width: 100%;
 }
-
-.header__row {}
 
 .header__col {
   width: 50%;
@@ -77,14 +78,11 @@ ul {
 .header__inner-row {
   width: 100%;
 }
-.header__txts-h{
+
+.header__txts-h {
   width: 100%;
   padding-right: 10px;
 }
-
-.header__inner-col {}
-
-.header__txts {}
 
 .header__title {
   display: block;
@@ -94,8 +92,6 @@ ul {
   text-align: right;
 }
 
-.header__txt {}
-
 .header__id {
   display: inline-block;
   vertical-align: middle;
@@ -104,4 +100,120 @@ ul {
   line-height: 20px;
   color: #000;
   text-align: right;
+}
+
+.coupon {}
+
+.coupon__row {}
+
+.coupon__header .coupon__col{
+  padding: 5px 0;
+}
+
+.coupon__col {
+  width: 50%;
+  border: 1px solid #000;
+  padding: 13px;
+  vertical-align: top;
+}
+
+.coupon__title {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.coupon__body {}
+
+.passeger {}
+
+.passeger__tab {}
+
+.passeger__row:not(:last-child) .passeger__col {
+  padding-bottom: 6px;
+}
+
+.passeger__col {}
+
+.passeger__name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000;
+  margin-bottom: 1px;
+}
+
+.passeger__id {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000;
+}
+
+.passeger__count-txt {
+  display: inline;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 14px;
+  color: #000;
+  margin-right: 10px;
+}
+
+.passeger__count {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000;
+}
+
+.amount {}
+
+.amount__tab {}
+
+.amount__row .amount__col:first-child{
+  width: 55%;
+}
+.amount__row:first-child .amount__col{
+  padding-bottom: 15px;
+}
+
+.amount__col {
+  width: 45%;
+}
+
+.amount__title {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000;
+}
+
+.amount__cost {
+  display: inline-block;
+  width: 100%;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  vertical-align: middle;
+  color: #000;
+}
+
+.a-info__title {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000;
+}
+
+.a-type__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: right;
+  color: #000;
+  text-transform: uppercase;
 }
