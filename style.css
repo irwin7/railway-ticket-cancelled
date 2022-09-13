@@ -129,11 +129,11 @@ table {
 }
 
 .passeger__row:not(:last-child) .passeger__id {
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .passeger__row:nth-child(2) .passeger__id {
-  margin-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 .passeger__name {
@@ -299,11 +299,14 @@ table {
 }
 
 .qr__inner-row:first-child .qr__inner-tab {
-  margin-bottom: 18px;
 }
 
 .return table {
   width: 320px;
+}
+
+.return {
+  padding-bottom: 18px;
 }
 
 .qr__inner-row:last-child .qr__inner-col:first-child {
@@ -344,5 +347,5 @@ table {
 }
 
 .warning__row:not(:last-child) .warning__txt {
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
