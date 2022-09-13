@@ -341,6 +341,7 @@ table {
   font-size: 11px;
   line-height: 13px;
   color: #000;
+  text-align: justify;
 }
 
 .warning__row:not(:last-child) .warning__txt {
@@ -375,7 +376,7 @@ table {
   text-align: left;
   font-weight: 600;
   font-size: 14px;
-  line-height: 19px;
+  line-height: 17px;
   color: #000;  
 }
 
@@ -385,6 +386,6 @@ table {
   text-align: right;
   font-weight: 400;
   font-size: 14px;
-  line-height: 19px;
+  line-height: 17px;
   color: #000; 
 }
