@@ -529,6 +529,7 @@ table {
   border: 1px solid #000;
   border-top: none;
   border-left: none;
+  padding: 0 40px;
 }
 
 .period__static-title {
@@ -575,10 +576,11 @@ table {
 
 .arrows{
   width: 100%;
+  padding-top: 25px;
 }
 
 .period__arrow {
-  width: 196px;
+  width: 150px;
   height: 20px;
 }
 
