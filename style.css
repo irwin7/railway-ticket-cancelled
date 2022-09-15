@@ -217,59 +217,39 @@ table {
   text-transform: uppercase;
 }
 
-.route {
-  border-right: none;
-}
-
-.departure {
-  border-left: none;
-  border-right: 1px solid #000;
-  ;
-}
-
-.coupon__col.route {
-  padding: 6px 10px;
-}
-
 .route__col {
-  width: 55%;
+  width: 25%;
 }
 
-.route__col:first-child {
-  width: 45%;
-}
-
-.route__txt {
+.route__title{
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
-  text-transform: uppercase;
+  text-transform: uppercase;  
+  text-align: left;
   color: #000;
 }
 
-.line__col:not(:nth-child(2)) {
-  width: 80px;
+.departure .route__title{
+  text-align: right;
 }
 
-.line__txt {
-  display: inline-block;
+.plan{
+  width: auto;
+}
+
+.plan__txt{
   font-weight: 700;
-  font-size: 14px;
-  line-height: 14px;
-  vertical-align: middle;
+  font-size: 13px;
+  line-height: 16px;
   text-align: center;
-  color: #000;
+  color: #000;  
 }
 
-.line__arrow {
+.plan__img{
   width: 25px;
   height: 15px;
-  margin: 5px 10px;
-  margin-right: 15px;
-}
-
-.departure__inner-col .route__txt {
-  text-align: right;
+  margin: 0 30px;
 }
 
 .departure__date {
